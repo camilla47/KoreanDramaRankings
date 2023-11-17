@@ -2,8 +2,13 @@
 Select a topic that is both personally interesting and broadly appealing.
 Formulate a research question that is original, creative, compelling, and not overly trivial.
 Ensure the research question can be explored and answered using data.
+
 TASKS:
  Brainstorm potential topics and related questions.
- Solicit feedback from fellow students on the topic's general interest, creativity/originality, and scope of the question.
+ Solicit feedback from fellow students on the topic's general interest, creativity/originality,
+ and scope of the question.
+
  Choose a final topic and related question.
- Document the feedback process and how it enhanced the general interest, scope, and originality of your final topic (include this documentation in the feedback folder of the repository - refer to Part 2).
+
+ Document the feedback process and how it enhanced the general interest, scope, and originality of
+ your final topic
