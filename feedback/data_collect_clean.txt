@@ -1,1 +1,5 @@
-for the blog post report the SHA number of the commit with the first draft you shared.
+Obtain feedback from at least three individuals (preferably classmates) on the quality of your blog post.
+Specifically request feedback on how to enhance readability, clarity, and informativeness.
+ Revise your blog post based on the received feedback.
+ Document the feedback process, highlighting improvements made to your blog post based on feedback.
+ Also report the SHA number of the commit with the first draft you shared.

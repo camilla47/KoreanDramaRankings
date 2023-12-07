@@ -1,14 +1,29 @@
 
-Select a topic that is both personally interesting and broadly appealing.
-Formulate a research question that is original, creative, compelling, and not overly trivial.
-Ensure the research question can be explored and answered using data.
+ ### CHOOSING A TOPIC #####################################
 
-TASKS:
- Brainstorm potential topics and related questions.
- Solicit feedback from fellow students on the topic's general interest, creativity/originality,
- and scope of the question.
+### Initial brainstorming
+ There were a few topics I was interested in for this project. It was a little difficult to find something
+ I was both interested in and that would have enough data to fit the requirements. Some of the areas I was
+ interested in were agriculture, owls, music, and K-dramas. My family has an ongoing research project with
+ owls, but I couldnt' find any good datasets to go with that. I explored the USDA website and the information 
+ they had on agriculture and crops, specifically in my home state of Washington. I also looked into NASA api
+ keys to potentially do something with asteroids and exoplanets. The last option I considered was analyzing
+ the My Drama Lists's (MDL) website for data on K-dramas. 
 
- Choose a final topic and related question.
+### Getting Feedback
+ I asked some of my classmates for their feedback on topic selection, and this is what they said:
+ These were my ideas
+ - Scrape information from the USDA on agriculture in Washington State 
+ - Use the NASA API to analyze data on asteroids and exoplanets
+ - Scrape My Drama List website for data on K-dramas
 
  Document the feedback process and how it enhanced the general interest, scope, and originality of
  your final topic
+
+### Choosing a Final Topic
+ I ultimately decided to go with the K-drama project. As an avid K-drama fan, I was excited to create 
+ visualizations for the data the MDL website has. These are some of the questions I want to look into:
+ - What is the relationship between show length (number of episodes) and viewer rating?
+ - Which streaming service provides shows with the highest ratings?
+ - How has episode length changed over time?
+ - Which genres are the most popular in different years?
