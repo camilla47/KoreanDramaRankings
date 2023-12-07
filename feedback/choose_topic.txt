@@ -17,6 +17,9 @@
  - Use the NASA API to analyze data on asteroids and exoplanets
  - Scrape My Drama List website for data on K-dramas
 
+ From Joe Bradley: I think the K-drama could be really cool. Is there a way that you can coincide the data with popularity?
+                    Like see how popular it has become? Maybe draw some parallels to the popularity to K-pop as well. 
+
  Document the feedback process and how it enhanced the general interest, scope, and originality of
  your final topic
 
