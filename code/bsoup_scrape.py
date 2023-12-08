@@ -7,7 +7,10 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
+
+
 def bsoup_scrape_data(titles, years, episodes, countries, scores, ranks, soup):
+
     # SHOW TITLES
     show_titles = soup.find_all('h6', class_='text-primary')
     for title in show_titles:
@@ -45,34 +48,3 @@ def bsoup_scrape_data(titles, years, episodes, countries, scores, ranks, soup):
         rank = rank.text.strip()
         rank = int(rank.split("#")[1])
         ranks.append(rank)
-
-
-years = []
-episodes = []
-countries = []
-titles = []
-scores = []
-ranks = []
-genres = []
-networks = []
-watchers = []
-
-# URL to scrape
-url = 'https://mydramalist.com/shows/top?page=1'
-# Send a GET request to the URL
-response = requests.get(url)
-# Parse the HTML content using BeautifulSoup
-soup = BeautifulSoup(response.content, 'html.parser')
-bsoup_scrape_data(titles, years, episodes, countries, scores, ranks, soup)
-
-my_drama_list_dummy = pd.DataFrame({
-    "title": titles,
-    "year": years,
-    "episodes": episodes,
-    "viewer_score": scores,
-    "rank": ranks
-})
-
-mdl = pd.DataFrame(my_drama_list_dummy)
-print("thee ned")
-mdl.to_csv("dummy.csv", index=False)

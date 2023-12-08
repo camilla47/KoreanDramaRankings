@@ -1,21 +1,501 @@
-title,year,episodes,viewer_score,rank
-Twinkling Watermelon,2023,16,9.2,1
-Move to Heaven,2021,10,9.1,2
-Moving,2023,20,9.1,3
-Weak Hero Class 1,2022,8,9.1,4
-Hospital Playlist Season 2,2021,12,9.1,5
-Nirvana in Fire,2015,54,9.1,6
-Flower of Evil,2020,16,9.1,7
-Alchemy of Souls,2022,20,9.1,8
-Hospital Playlist,2020,12,9.1,9
-Reset,2022,15,9.1,10
-Reply 1988,2015,20,9.1,11
-Hidden Love,2023,25,9.0,12
-My Mister,2018,16,9.0,13
-1 Litre no Namida,2005,11,9.0,14
-Love Like the Galaxy: Part 2,2022,29,9.0,15
-Mysterious Lotus Casebook,2023,40,9.0,16
-Joy of Life,2019,46,9.0,17
-Under the Queen's Umbrella,2022,16,9.0,18
-The Untamed,2019,50,9.0,19
-When I Fly Towards You,2023,24,9.0,20
+title,year,episodes,country,viewer_score,rank
+Twinkling Watermelon,2023,16,Korean,9.2,1
+Move to Heaven,2021,10,Korean,9.1,2
+Moving,2023,20,Korean,9.1,3
+Weak Hero Class 1,2022,8,Korean,9.1,4
+Hospital Playlist Season 2,2021,12,Korean,9.1,5
+Nirvana in Fire,2015,54,Chinese,9.1,6
+Flower of Evil,2020,16,Korean,9.1,7
+Alchemy of Souls,2022,20,Korean,9.1,8
+Hospital Playlist,2020,12,Korean,9.1,9
+Reset,2022,15,Chinese,9.1,10
+Reply 1988,2015,20,Korean,9.1,11
+Hidden Love,2023,25,Chinese,9.0,12
+My Mister,2018,16,Korean,9.0,13
+1 Litre no Namida,2005,11,Japanese,9.0,14
+Love Like the Galaxy: Part 2,2022,29,Chinese,9.0,15
+Mysterious Lotus Casebook,2023,40,Chinese,9.0,16
+Joy of Life,2019,46,Chinese,9.0,17
+Under the Queen's Umbrella,2022,16,Korean,9.0,18
+The Untamed,2019,50,Chinese,9.0,19
+When I Fly Towards You,2023,24,Chinese,9.0,20
+Someday or One Day,2019,13,Taiwanese,9.0,21
+The Glory Part 2,2023,8,Korean,9.0,22
+Love Like the Galaxy: Part 1,2022,27,Chinese,9.0,23
+Crash Landing on You,2019,16,Korean,9.0,24
+Dr. Romantic Season 3,2023,16,Korean,9.0,25
+Prison Playbook,2017,16,Korean,9.0,26
+Mr. Queen,2020,20,Korean,9.0,27
+Oh No! Here Comes Trouble,2023,12,Taiwanese,9.0,28
+Mother,2018,16,Korean,9.0,29
+Go Ahead,2020,46,Chinese,8.9,30
+It's Okay to Not Be Okay,2020,16,Korean,8.9,31
+Extraordinary Attorney Woo,2022,16,Korean,8.9,32
+Alchemy of Souls Season 2: Light and Shadow,2022,10,Korean,8.9,33
+Navillera,2021,12,Korean,8.9,34
+The Glory,2022,8,Korean,8.9,35
+Vincenzo,2021,20,Korean,8.9,36
+Signal,2016,16,Korean,8.9,37
+The Blood of Youth,2022,40,Chinese,8.9,38
+The Good Bad Mother,2023,14,Korean,8.9,39
+I Feel You Linger in the Air: Uncut Version,2023,12,Thai,8.9,40
+Meet Yourself,2023,40,Chinese,8.9,41
+Kingdom Season 2,2020,6,Korean,8.9,42
+Happiness,2021,12,Korean,8.9,43
+Taxi Driver Season 2,2023,16,Korean,8.9,44
+My Dearest,2023,10,Korean,8.9,45
+Mr. Sunshine,2018,24,Korean,8.9,46
+One Piece,2023,8,Japanese,8.9,47
+My Dearest Part 2,2023,11,Korean,8.9,48
+Tomorrow,2022,16,Korean,8.8,49
+Story of Kunning Palace,2023,38,Chinese,8.8,50
+Hikaru no Go,2020,36,Chinese,8.8,51
+Imawa no Kuni no Alice Season 2,2022,8,Japanese,8.8,52
+Tale of the Nine-Tailed 1938,2023,12,Korean,8.8,53
+More than Blue: The Series,2021,10,Taiwanese,8.8,54
+Healer,2014,20,Korean,8.8,55
+The Story of Ming Lan,2018,78,Chinese,8.8,56
+Love Between Fairy and Devil,2022,36,Chinese,8.8,57
+Mouse,2021,20,Korean,8.8,58
+Imawa no Kuni no Alice,2020,8,Japanese,8.8,59
+Goblin,2016,16,Korean,8.8,60
+The Uncanny Counter,2020,16,Korean,8.8,61
+Daily Dose of Sunshine,2023,12,Korean,8.8,62
+Stranger,2017,16,Korean,8.8,63
+Twenty-Five Twenty-One,2022,16,Korean,8.8,64
+The Red Sleeve,2021,17,Korean,8.8,65
+D.P.,2021,6,Korean,8.8,66
+Eternal Love,2017,58,Chinese,8.8,67
+SKY Castle,2018,20,Korean,8.8,68
+Taxi Driver,2021,16,Korean,8.8,69
+Missing: The Other Side Season 2,2022,14,Korean,8.8,70
+Kingdom,2019,6,Korean,8.8,71
+Weightlifting Fairy Kim Bok Joo,2016,16,Korean,8.8,72
+Story of Yanxi Palace,2018,70,Chinese,8.8,73
+Youth of May,2021,12,Korean,8.8,74
+Sword Snow Stride,2021,38,Chinese,8.7,75
+You Are My Glory,2021,32,Chinese,8.7,76
+Through the Darkness,2022,12,Korean,8.7,77
+The Devil Judge,2021,16,Korean,8.7,78
+Dr. Romantic Season 2,2020,16,Korean,8.7,79
+Thai Cave Rescue,2022,6,Thai,8.7,80
+Life on Mars,2018,16,Korean,8.7,81
+Love and Redemption,2020,59,Chinese,8.7,82
+Racket Boys,2021,16,Korean,8.7,83
+Dear My Friends,2016,16,Korean,8.7,84
+Beyond Evil,2021,16,Korean,8.7,85
+Arthdal Chronicles Part 3: The Prelude to All Legends,2019,6,Korean,8.7,86
+First Love: Hatsukoi,2022,9,Japanese,8.7,87
+Hometown Cha-Cha-Cha,2021,16,Korean,8.7,88
+Under the Skin,2022,20,Chinese,8.7,89
+I Am Nobody,2023,27,Chinese,8.7,90
+"Arthdal Chronicles Part 2: The Sky Turning Inside Out, Rising Land",2019,6,Korean,8.7,91
+Six Flying Dragons,2015,50,Korean,8.7,92
+The Penthouse: War in Life,2020,21,Korean,8.7,93
+Moon Lovers: Scarlet Heart Ryeo,2016,20,Korean,8.7,94
+The Penthouse Season 2: War in Life,2021,13,Korean,8.7,95
+Partners for Justice Season 2,2019,32,Korean,8.7,96
+While You Were Sleeping,2017,32,Korean,8.7,97
+D.P. Season 2,2023,6,Korean,8.7,98
+The Guest,2018,16,Korean,8.7,99
+Sweet Home,2020,10,Korean,8.7,100
+Our Beloved Summer,2021,16,Korean,8.7,101
+Ultimate Note,2020,37,Chinese,8.7,102
+Mystery to Iunakare,2022,12,Japanese,8.7,103
+The Long Ballad,2021,49,Chinese,8.7,104
+Strong Woman Do Bong Soon,2017,16,Korean,8.7,105
+My Name,2021,8,Korean,8.7,106
+Defendant,2017,18,Korean,8.7,107
+The King of Pigs,2022,12,Korean,8.7,108
+Revenant,2023,12,Korean,8.7,109
+18 Again,2020,16,Korean,8.7,110
+Nirvana in Fire Season 2: The Wind Blows in Chang Lin,2017,50,Chinese,8.7,111
+A Business Proposal,2022,12,Korean,8.7,112
+"Kill Me, Heal Me",2015,20,Korean,8.7,113
+Who Rules the World,2022,40,Chinese,8.7,114
+One and Only,2021,24,Chinese,8.7,115
+Unnatural,2018,10,Japanese,8.7,116
+Lighter & Princess,2022,36,Chinese,8.7,117
+Lost You Forever,2023,39,Chinese,8.7,118
+Dr. Romantic,2016,20,Korean,8.7,119
+New Life Begins,2022,40,Chinese,8.7,120
+The First Responders,2022,12,Korean,8.7,121
+Misaeng: Incomplete Life,2014,20,Korean,8.7,122
+Strangers from Hell,2019,10,Korean,8.7,123
+Hot Stove League,2019,16,Korean,8.7,124
+Chicago Typewriter,2017,16,Korean,8.7,125
+Jewel in the Palace,2003,54,Korean,8.7,126
+Our Blues,2022,20,Korean,8.7,127
+The Kidnapping Day,2023,12,Korean,8.6,128
+"3 Nen A Gumi: Ima kara Mina-san wa, Hitojichi Desu",2019,10,Japanese,8.6,129
+The Worst of Evil,2023,12,Korean,8.6,130
+Hanzawa Naoki,2013,10,Japanese,8.6,131
+Battle of Changsha,2014,32,Chinese,8.6,132
+Bloodhounds,2023,8,Korean,8.6,133
+Descendants of the Sun,2016,16,Korean,8.6,134
+Glory of Special Forces,2022,45,Chinese,8.6,135
+Hotel del Luna,2019,16,Korean,8.6,136
+Winter Begonia,2020,49,Chinese,8.6,137
+My Journey to You,2023,24,Chinese,8.6,138
+Falling Into Your Smile,2021,31,Chinese,8.6,139
+The Bad Kids,2020,12,Chinese,8.6,140
+Till the End of the Moon,2023,40,Chinese,8.6,141
+Tunnel,2017,16,Korean,8.6,142
+You Are My Hero,2021,40,Chinese,8.6,143
+The Fiery Priest,2019,40,Korean,8.6,144
+My Perfect Stranger,2023,16,Korean,8.6,145
+Mother,2010,11,Japanese,8.6,146
+Missing: The Other Side,2020,12,Korean,8.6,147
+Live,2018,18,Korean,8.6,148
+Project S: Skate Our Souls,2017,8,Thai,8.6,149
+My Liberation Notes,2022,16,Korean,8.6,150
+"It's Okay, That's Love",2014,16,Korean,8.6,151
+Law School,2021,16,Korean,8.6,152
+Perfect Marriage Revenge,2023,12,Korean,8.6,153
+Cross Fire,2020,36,Chinese,8.6,154
+Children of Nobody,2018,32,Korean,8.6,155
+Vigilante,2023,8,Korean,8.6,156
+Love Destiny,2018,15,Thai,8.6,157
+Once Again,2020,100,Korean,8.6,158
+Kazoku Game,2013,10,Japanese,8.6,159
+Castaway Diva,2023,12,Korean,8.5,160
+Lovely Us,2020,16,Chinese,8.6,161
+Ghost Doctor,2022,16,Korean,8.6,162
+The Starry Love,2023,40,Chinese,8.6,163
+The Romance of Tiger and Rose,2020,24,Chinese,8.6,164
+Eternal Love of Dream,2020,56,Chinese,8.6,165
+Ashes of Love,2018,63,Chinese,8.6,166
+Juvenile Justice,2022,10,Korean,8.6,167
+Word of Honor,2021,36,Chinese,8.6,168
+Go Back Couple,2017,12,Korean,8.6,169
+Tenno no Ryoriban,2015,12,Japanese,8.6,170
+Eulachacha Waikiki,2018,20,Korean,8.6,171
+Shining for One Thing,2022,24,Chinese,8.6,172
+Empress Ki,2013,51,Korean,8.6,173
+The Gifted,2018,13,Thai,8.6,174
+Good Manager,2017,20,Korean,8.6,175
+Beautiful World,2019,16,Korean,8.5,176
+Big Mouth,2022,16,Korean,8.5,177
+Money Heist: Korea - Joint Economic Area - Part 2,2022,6,Korean,8.5,178
+The Bridal Mask,2012,28,Korean,8.5,179
+Stranger Season 2,2020,16,Korean,8.5,180
+Cruel City,2013,20,Korean,8.5,181
+Ancient Love Poetry,2021,49,Chinese,8.5,182
+Forever Love,2020,28,Chinese,8.5,183
+My Father Is Strange,2017,52,Korean,8.5,184
+Duty After School: Part 1,2023,6,Korean,8.5,185
+Avengers Social Club,2017,12,Korean,8.5,186
+Nobody Knows,2020,16,Korean,8.5,187
+In Family We Trust,2018,18,Thai,8.5,188
+Love to Hate You,2023,10,Korean,8.5,189
+MIU 404,2020,11,Japanese,8.5,190
+Designated Survivor: 60 Days,2019,16,Korean,8.5,191
+Reborn Rich,2022,16,Korean,8.5,192
+Silent,2022,11,Japanese,8.5,193
+Enigma,2023,4,Thai,8.5,194
+Age of Youth,2016,12,Korean,8.5,195
+Boku no Ita Jikan,2014,11,Japanese,8.5,196
+Our Secret,2021,24,Chinese,8.5,197
+Wonderland of Love,2023,40,Chinese,8.5,198
+Bad and Crazy,2021,12,Korean,8.5,199
+Legend of Concubine Zhen Huan,2012,76,Chinese,8.5,200
+Rebel: Thief Who Stole the People,2017,30,Korean,8.5,201
+Just Between Lovers,2017,16,Korean,8.5,202
+My Love from the Star,2013,21,Korean,8.5,203
+Reunion: The Sound of the Providence Season 2,2020,30,Chinese,8.5,204
+Arthdal Chronicles Part 1: The Children of Prophecy,2019,6,Korean,8.5,205
+The Longest Day in Chang'an,2019,48,Chinese,8.5,206
+Not Me,2021,14,Thai,8.5,207
+365: Repeat the Year,2020,24,Korean,8.5,208
+A Tale of Thousand Stars,2021,10,Thai,8.5,209
+Little Women,2022,12,Korean,8.5,210
+Revenge of Others,2022,12,Korean,8.5,211
+Brush Up Life,2023,10,Japanese,8.5,212
+The King’s Avatar,2019,40,Chinese,8.5,213
+The Long Night,2020,12,Chinese,8.5,214
+My Little Happiness,2021,28,Chinese,8.5,215
+Mystic Pop-Up Bar,2020,12,Korean,8.5,216
+Queen Seon Deok,2009,62,Korean,8.5,217
+Bad Guys,2014,11,Korean,8.5,218
+The Master's Sun,2013,17,Korean,8.5,219
+What's Wrong with Secretary Kim,2018,16,Korean,8.5,220
+Blind,2022,16,Korean,8.5,221
+Tonbi,2013,10,Japanese,8.5,222
+All of Us Are Dead,2022,12,Korean,8.5,223
+Remembrance of Things Past,2021,12,Chinese,8.5,224
+The Prince of Tennis,2019,42,Chinese,8.5,225
+Save Me,2017,16,Korean,8.5,226
+One Ordinary Day,2021,8,Korean,8.5,227
+W,2016,16,Korean,8.5,228
+My School President,2022,12,Thai,8.5,229
+"Soredemo, Ikite Yuku",2011,11,Japanese,8.5,230
+Stay with Me,2023,24,Chinese,8.5,231
+The Day of Becoming You,2021,26,Chinese,8.5,232
+Vagabond,2019,16,Korean,8.5,233
+Voice,2017,16,Korean,8.5,234
+Hanzawa Naoki Season 2,2020,10,Japanese,8.5,235
+"Hi Bye, Mama!",2020,16,Korean,8.5,236
+Kairos,2020,16,Korean,8.5,237
+Ouroboros,2015,10,Japanese,8.5,238
+SKZ Flix,2023,1,Korean,8.5,239
+To Fly With You,2021,35,Chinese,8.5,240
+I Hear Your Voice,2013,18,Korean,8.5,241
+Girl From Nowhere,2018,13,Thai,8.5,242
+The World Between Us,2019,10,Taiwanese,8.5,243
+Fight for My Way,2017,16,Korean,8.5,244
+Code Blue Season 3,2017,10,Japanese,8.5,245
+Doctor John,2019,32,Korean,8.5,246
+Arsenal Military Academy,2019,48,Chinese,8.5,247
+Killer And Healer,2021,37,Chinese,8.5,248
+Dong Yi,2010,60,Korean,8.5,249
+One Dollar Lawyer,2022,12,Korean,8.5,250
+Kamen Rider W,2009,49,Japanese,8.5,251
+The Sleuth of Ming Dynasty,2020,48,Chinese,8.5,252
+The Bond,2021,36,Chinese,8.5,253
+Bad Genius,2020,12,Thai,8.5,254
+Back From the Brink,2023,40,Chinese,8.5,255
+Destined,2023,40,Chinese,8.5,256
+Le Coup de Foudre,2019,35,Chinese,8.5,257
+Guardian,2018,40,Chinese,8.5,258
+Reply 1997,2012,16,Korean,8.5,259
+The Blue Whisper: Part 2,2022,20,Chinese,8.5,260
+Time and Him Are Just Right,2022,25,Chinese,8.5,261
+Mad for Each Other,2021,13,Korean,8.5,262
+Love Is Sweet,2020,36,Chinese,8.5,263
+The Imperial Coroner,2021,36,Chinese,8.5,264
+The First Responders Season 2,2023,12,Korean,8.5,265
+A Murderous Affair in Horizon Tower,2020,16,Chinese,8.5,266
+Legally Romance,2022,33,Chinese,8.5,267
+The Love You Give Me,2023,28,Chinese,8.5,268
+I Feel You Linger in the Air,2023,12,Thai,8.5,269
+Itaewon Class,2020,16,Korean,8.5,270
+Thirty But Seventeen,2018,32,Korean,8.5,271
+Go Go Squid!,2019,41,Chinese,8.5,272
+Squid Game,2021,9,Korean,8.5,273
+Two Weeks,2013,16,Korean,8.5,274
+A Dream of Splendor,2022,40,Chinese,8.5,275
+Juhan Shuttai!,2016,10,Japanese,8.5,276
+Falling Into You,2022,26,Chinese,8.5,277
+Autumn's Concerto,2009,21,Taiwanese,8.5,278
+Kyo Kara Ore wa!!,2018,10,Japanese,8.5,279
+Goodbye My Princess: Director's Cut,2019,55,Chinese,8.5,280
+"It's Okay, That's Friendship",2021,1,Korean,8.5,281
+The Princess's Man,2011,24,Korean,8.4,282
+Voice Season 2,2018,12,Korean,8.4,283
+Forever and Ever,2021,30,Chinese,8.4,284
+Liar Game 2,2009,9,Japanese,8.4,285
+Recipe for Farewell,2022,12,Korean,8.4,286
+Doom at Your Service,2021,16,Korean,8.4,287
+F4 Thailand: Boys Over Flowers,2021,16,Thai,8.4,288
+Lost,2021,16,Korean,8.4,289
+Happy Birthday,2018,13,Thai,8.4,290
+Because This Is My First Life,2017,16,Korean,8.4,291
+Dali and the Cocky Prince,2021,16,Korean,8.4,292
+Seasons of Blossom,2022,16,Korean,8.4,293
+Koi wa Tsuzuku yo Doko Made mo,2020,10,Japanese,8.4,294
+The Confidence Man JP,2018,10,Japanese,8.4,295
+Kleun Cheewit,2017,15,Thai,8.4,296
+Lost Romance,2020,20,Taiwanese,8.4,297
+Project S: Side by Side,2017,8,Thai,8.4,298
+Crash Course in Romance,2023,16,Korean,8.4,299
+Circle,2017,12,Korean,8.4,300
+To the Moon and Back,2023,21,Thai,8.4,301
+Immortal Samsara: Part 2,2022,21,Chinese,8.4,302
+Bad Buddy,2021,12,Thai,8.4,303
+"Work Later, Drink Now",2021,12,Korean,8.4,304
+See You in My 19th Life,2023,12,Korean,8.4,305
+Angel's Last Mission: Love,2019,32,Korean,8.4,306
+Skate Into Love,2020,40,Chinese,8.4,307
+Sweet Teeth,2021,22,Chinese,8.4,308
+Put Your Head on My Shoulder,2019,24,Chinese,8.4,309
+The Rebel Princess,2021,68,Chinese,8.4,310
+Boku Dake ga Inai Machi,2017,12,Japanese,8.4,311
+Fake It Till You Make It,2023,14,Chinese,8.4,312
+When the Camellia Blooms,2019,40,Korean,8.4,313
+Kono Sekai no Katasumi ni,2018,9,Japanese,8.4,314
+dele,2018,8,Japanese,8.4,315
+Pachinko,2022,8,Korean,8.4,316
+Moon Embracing the Sun,2012,20,Korean,8.4,317
+Queen In Hyun's Man,2012,16,Korean,8.4,318
+Yumi's Cells,2021,14,Korean,8.4,319
+Crush,2021,24,Chinese,8.4,320
+Medical Examiner Dr. Qin,2016,20,Chinese,8.4,321
+Unforgettable Love,2021,24,Chinese,8.4,322
+Snowdrop,2021,16,Korean,8.4,323
+If You Wish Upon Me,2022,16,Korean,8.4,324
+Under the Power,2019,55,Chinese,8.4,325
+Fall in Love,2021,36,Chinese,8.4,326
+The World of the Married,2020,16,Korean,8.4,327
+Hi Venus,2022,24,Chinese,8.4,328
+Love All Play,2022,16,Korean,8.4,329
+The Rise of Phoenixes,2018,70,Chinese,8.4,330
+My Unfamiliar Family,2020,16,Korean,8.4,331
+Extracurricular,2020,10,Korean,8.4,332
+The Blue Whisper: Part 1,2022,22,Chinese,8.4,333
+Ever Night,2018,60,Chinese,8.4,334
+Immortal Samsara: Part 1,2022,38,Chinese,8.4,335
+A Time Called You,2023,12,Korean,8.4,336
+The Crowned Clown,2019,16,Korean,8.4,337
+Love Scenery,2021,31,Chinese,8.4,338
+Kaizoku Sentai Gokaiger,2011,51,Japanese,8.4,339
+Hello Monster,2015,16,Korean,8.4,340
+Train,2020,12,Korean,8.4,341
+Memorist,2020,16,Korean,8.4,342
+Like in the Movies,2020,8,Filipino,8.4,343
+Konto ga Hajimaru,2021,10,Japanese,8.4,344
+Scarlet Heart,2011,35,Chinese,8.4,345
+I'm Not a Robot,2017,32,Korean,8.4,346
+Be Melodramatic,2019,16,Korean,8.4,347
+Ruyi's Royal Love in the Palace,2018,87,Chinese,8.4,348
+Duel,2017,16,Korean,8.4,349
+The Mysterious Class,2021,8,Korean,8.4,350
+When We Were Young,2018,24,Chinese,8.4,351
+"From Now On, Showtime!",2022,16,Korean,8.4,352
+Douluo Continent,2021,40,Chinese,8.4,353
+My Calorie Boy,2022,30,Chinese,8.4,354
+Nanba MG5,2022,10,Japanese,8.4,355
+Love You Seven Times,2023,38,Chinese,8.4,356
+Asa ga Kita,2015,156,Japanese,8.4,357
+My Country: The New Age,2019,16,Korean,8.4,358
+Pinocchio,2014,20,Korean,8.4,359
+Partners for Justice,2018,32,Korean,8.4,360
+Extraordinary You,2019,32,Korean,8.4,361
+Mad Dog,2017,16,Korean,8.4,362
+99.9: Keiji Senmon Bengoshi Season 2,2018,9,Japanese,8.4,363
+A Familiar Stranger,2022,18,Chinese,8.4,364
+Amanza,2020,10,Korean,8.4,365
+Military Prosecutor Doberman,2022,16,Korean,8.4,366
+Maiden Holmes,2020,32,Chinese,8.4,367
+Soundtrack #1,2022,4,Korean,8.4,368
+Secret,2013,16,Korean,8.4,369
+JIN Season 2,2011,11,Japanese,8.4,370
+The Uncanny Counter Season 2: Counter Punch,2023,12,Korean,8.4,371
+Love and Destiny,2019,60,Chinese,8.4,372
+A River Runs Through It,2021,36,Chinese,8.4,373
+N no Tame ni,2014,10,Japanese,8.4,374
+Love Me If You Dare,2015,24,Chinese,8.4,375
+Birthcare Center,2020,8,Korean,8.4,376
+Sell Your Haunted House,2021,16,Korean,8.4,377
+Tale of the Nine-Tailed,2020,16,Korean,8.4,378
+Justice in the Dark,2023,8,Chinese,8.4,379
+Side Story of Fox Volant,2022,40,Chinese,8.4,380
+Age of Youth Season 2,2017,14,Korean,8.4,381
+Legend of Fu Yao,2018,66,Chinese,8.4,382
+The Princess Wei Young,2016,54,Chinese,8.4,383
+Full House,2014,20,Thai,8.3,384
+Summer Strike,2022,12,Korean,8.3,385
+Exclusive Fairytale,2023,24,Chinese,8.3,386
+Good Doctor,2018,10,Japanese,8.3,387
+Her Private Life,2019,16,Korean,8.3,388
+Reunion: The Sound of the Providence,2020,32,Chinese,8.3,389
+Princess Pearl,1998,24,Chinese,8.3,390
+The Good Detective,2020,16,Korean,8.3,391
+Doctor X Season 5,2017,10,Japanese,8.3,392
+Lie After Lie,2020,16,Korean,8.3,393
+Daughters,2020,24,Thai,8.3,394
+Gaus Electronics,2022,12,Korean,8.3,395
+Jumong,2006,81,Korean,8.3,396
+My Roommate Is a Detective,2020,36,Chinese,8.3,397
+Kimi to Nara Koi wo Shite Mite mo,2023,5,Japanese,8.3,398
+The Legend of the Blue Sea,2016,20,Korean,8.3,399
+Sh**ting Stars,2022,16,Korean,8.3,400
+Doctor Prisoner,2019,32,Korean,8.3,401
+Voice Season 3: City of Accomplices,2019,16,Korean,8.3,402
+My Roommate Is a Gumiho,2021,16,Korean,8.3,403
+The Veil,2021,12,Korean,8.3,404
+Ugly Alert,2013,133,Korean,8.3,405
+Search: WWW,2019,16,Korean,8.3,406
+The Forbidden Flower,2023,24,Chinese,8.3,407
+Player,2018,14,Korean,8.3,408
+The Warp Effect,2022,12,Thai,8.3,409
+Scent of Time,2023,30,Chinese,8.3,410
+Come and Hug Me,2018,32,Korean,8.3,411
+I Don't Want to Be Friends With You,2020,24,Chinese,8.3,412
+Yumi's Cells Season 2,2022,14,Korean,8.3,413
+Nine: Nine Times Time Travel,2013,20,Korean,8.3,414
+Nijiiro Karute,2021,9,Japanese,8.3,415
+Bitter Blood,2014,11,Japanese,8.3,416
+A Little Reunion,2019,49,Chinese,8.3,417
+Good Doctor,2013,20,Korean,8.3,418
+Moonlight,2021,36,Chinese,8.3,419
+Moonlight Chicken,2023,8,Thai,8.3,420
+Bokura wa Kiseki de Dekite Iru,2018,10,Japanese,8.3,421
+Pride,2004,11,Japanese,8.3,422
+P.S. I Hate You,2022,18,Thai,8.3,423
+Saka no Tochu no Ie,2019,6,Japanese,8.3,424
+God's Quiz: Reboot,2018,16,Korean,8.3,425
+Be Reborn,2022,26,Chinese,8.3,426
+Three Kingdoms,2010,95,Chinese,8.3,427
+Don't Disturb My Study,2021,24,Chinese,8.3,428
+Arthdal Chronicles: The Sword of Aramun,2023,12,Korean,8.3,429
+Cold Case: Shinjitsu no Tobira,2016,10,Japanese,8.3,430
+Vampire Prosecutor 2,2012,11,Korean,8.3,431
+Team Bulldog: Off-duty Investigation,2020,12,Korean,8.3,432
+"At a Distance, Spring Is Green",2021,12,Korean,8.3,433
+A League of Nobleman,2023,29,Chinese,8.3,434
+Divorce Attorney Shin,2023,12,Korean,8.3,435
+Class of Lies,2019,16,Korean,8.3,436
+The Forbidden Marriage,2022,12,Korean,8.3,437
+Koi Desu: Yankee-kun to Hakujou Garu,2021,10,Japanese,8.3,438
+100 Days My Prince,2018,16,Korean,8.3,439
+King the Land,2023,16,Korean,8.3,440
+God's Gift: 14 Days,2014,16,Korean,8.3,441
+He Is Psychometric,2019,16,Korean,8.3,442
+Confession,2019,16,Korean,8.3,443
+Psychopath Diary,2019,16,Korean,8.3,444
+City Hunter,2011,20,Korean,8.3,445
+Kounodori,2015,10,Japanese,8.3,446
+True Beauty,2020,16,Korean,8.3,447
+Tengoku to Jigoku: Psychona Futari,2021,10,Japanese,8.3,448
+Kamen Rider Build,2017,49,Japanese,8.3,449
+The Beauty Inside,2018,16,Korean,8.3,450
+Hit the Spot,2022,8,Korean,8.3,451
+The Youth Memories,2023,38,Chinese,8.3,452
+JIN,2009,11,Japanese,8.3,453
+Perfect and Casual,2020,24,Chinese,8.3,454
+Call It Love,2023,16,Korean,8.3,455
+We Best Love: No. 1 For You,2021,6,Taiwanese,8.3,456
+Bloody Monday,2008,11,Japanese,8.3,457
+Nobunaga Concerto,2014,11,Japanese,8.3,458
+High&Low: The Story of S.W.O.R.D.,2015,10,Japanese,8.3,459
+Celebrity,2023,12,Korean,8.3,460
+Delicious Romance,2021,20,Chinese,8.3,461
+She Makes My Heart Flutter,2022,5,Korean,8.3,462
+The Oath of Love,2022,32,Chinese,8.3,463
+Young Blood,2019,42,Chinese,8.3,464
+The Tale of Nokdu,2019,32,Korean,8.3,465
+Jun Jiu Ling,2021,40,Chinese,8.3,466
+My Girlfriend Is an Alien,2019,28,Chinese,8.3,467
+Who Are You,2020,18,Thai,8.3,468
+My Girlfriend Is an Alien Season 2,2022,30,Chinese,8.3,469
+A Love So Beautiful,2017,23,Chinese,8.3,470
+SPEC: Birth,2010,10,Japanese,8.3,471
+Love O2O,2016,30,Chinese,8.3,472
+One Spring Night,2019,32,Korean,8.3,473
+Kieta Hatsukoi,2021,10,Japanese,8.3,474
+The Nokdu Flower,2019,48,Korean,8.3,475
+My Fated Boy,2021,29,Chinese,8.3,476
+Voice Season 4: Judgment Hour,2021,14,Korean,8.3,477
+Gu Family Book,2013,24,Korean,8.3,478
+The Gifted Graduation,2020,13,Thai,8.3,479
+Influence,2021,5,Japanese,8.3,480
+Hua Jai Sila,2019,27,Thai,8.3,481
+Legal High 2,2013,10,Japanese,8.3,482
+With You,2020,20,Chinese,8.3,483
+The Hymn of Death,2018,6,Korean,8.3,484
+Iljimae,2008,20,Korean,8.3,485
+Strange Tales of Tang Dynasty,2022,36,Chinese,8.3,486
+Five Enough,2016,54,Korean,8.3,487
+Doctor X Season 3,2014,11,Japanese,8.3,488
+Rookie Cops,2022,16,Korean,8.3,489
+"Ore no Sukato, Doko Itta?",2019,10,Japanese,8.3,490
+Memory,2016,16,Korean,8.3,491
+Bloody Monday Season 2,2010,9,Japanese,8.3,492
+Tree With Deep Roots,2011,24,Korean,8.3,493
+Nothing But You,2023,38,Chinese,8.3,494
+Kotaro wa Hitorigurashi,2021,10,Japanese,8.3,495
+Liar Game,2007,11,Japanese,8.3,496
+Maou,2008,11,Japanese,8.3,497
+99.9: Keiji Senmon Bengoshi,2016,10,Japanese,8.3,498
+Ancient Detective,2020,24,Chinese,8.3,499
+Gannibal,2022,7,Japanese,8.3,500
