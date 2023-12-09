@@ -10,7 +10,6 @@ from selenium.common.exceptions import NoSuchElementException
 
 import time
 import pandas as pd
-import numpy as np
 
 # THIS CODE WILL LOOP THROUGH ALL 20 TITLE ELEMENTS AND GRAB THE GENRES AND PUT THEM INTO A LIST!!!!!
 
