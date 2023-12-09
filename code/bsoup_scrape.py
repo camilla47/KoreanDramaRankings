@@ -7,8 +7,6 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
-
-
 def bsoup_scrape_data(titles, years, episodes, countries, scores, ranks, soup):
 
     # SHOW TITLES
