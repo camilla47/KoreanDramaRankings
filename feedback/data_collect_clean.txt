@@ -2,4 +2,16 @@ Obtain feedback from at least three individuals (preferably classmates) on the q
 Specifically request feedback on how to enhance readability, clarity, and informativeness.
  Revise your blog post based on the received feedback.
  Document the feedback process, highlighting improvements made to your blog post based on feedback.
- Also report the SHA number of the commit with the first draft you shared.
+ 
+### FEEDBACK FOR DATA COLLECTION #############
+
+ SHA number of the commit for the first blog post draft: 855e80f
+
+ link: https://camilla47.github.io/2023/12/09/data-collect.html
+
+ I asked j, j, j for feedback. This is what they said:
+
+
+
+
+ Afterwards, I made these changes:
