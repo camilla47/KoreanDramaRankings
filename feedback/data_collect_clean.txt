@@ -1,4 +1,4 @@
-### FEEDBACK FOR DATA COLLECTION #############
+### FEEDBACK FOR DATA COLLECTION AND CLEANING ################
 
  SHA number of the commit for the first blog post draft: 855e80f
  link: https://camilla47.github.io/2023/12/09/data-collect.html

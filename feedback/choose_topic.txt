@@ -1,4 +1,3 @@
-
  ### CHOOSING A TOPIC #####################################
 
 ### Initial brainstorming
@@ -17,14 +16,16 @@
  - Use the NASA API to analyze data on asteroids and exoplanets
  - Scrape My Drama List website for data on K-dramas
 
- From Joe Bradley: I think the K-drama could be really cool. Is there a way that you can coincide the data with popularity?
-                    Like see how popular it has become? Maybe draw some parallels to the popularity to K-pop as well. 
+From Joe Bradley:
+"I think the K-drama could be really cool. Is there a way that you can coincide the data with popularity?
+Like see how popular it has become? Maybe draw some parallels to the popularity to K-pop as well."
 
- Document the feedback process and how it enhanced the general interest, scope, and originality of
- your final topic
+From Garrett Springer
+He said the NASA api key was difficult to use, so it might be easier to start elsewhere (unless I really wanted to do it)
+
 
 ### Choosing a Final Topic
- I ultimately decided to go with the K-drama project. As an avid K-drama fan, I was excited to create 
+ I ultimately decided to go with the K-drama project. As a K-drama fan, I was excited to create 
  visualizations for the data the MDL website has. These are some of the questions I want to look into:
  - What is the relationship between show length (number of episodes) and viewer rating?
  - Which streaming service provides shows with the highest ratings?

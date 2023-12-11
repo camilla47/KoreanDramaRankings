@@ -4,8 +4,11 @@ import pandas as pd
 st.title('All the Drama')
 df = pd.read_csv('mdl_final.csv')
 
-years = sorted(df['year'].unique())
 
+
+
+##### Show top 5 movies in any selected year #########
+years = sorted(df['year'].unique())
 # Fetch unique years and sort them in ascending order
 selected_year = st.selectbox('Select a year', sorted(df['year'].unique(), reverse=True))
 year_df = df[df['year'] == selected_year]
