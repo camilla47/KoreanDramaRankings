@@ -9,9 +9,12 @@ Specifically request feedback on how to enhance readability, clarity, and inform
 
  link: https://camilla47.github.io/2023/12/09/data-collect.html
 
- I asked j, j, j for feedback. This is what they said:
+ I got feedback from Garrett Springer, j, j for feedback. This is what they said:
 
-
+-Typo in the first line Koran -> Korean
+- I liked that you included the code snippets
+- Good explanation of selenium
+- Maybe some more info on your cleaning process
 
 
  Afterwards, I made these changes:
