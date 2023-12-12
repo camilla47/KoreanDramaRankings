@@ -23,11 +23,19 @@ min_score = st.slider('Input minimum rating (out of 10)', min_value=0.0, max_val
 
 # Filtering the dataframe based on user inputs
 ## select all rows where the selected genre contains a 1
-filtered_df = df[(df['genres'] == selected_genre) & (df['episodes'] <= max_episode_length) & (df['viewer_score'] >= min_score)]
+filtered_df = df[
+    (df['genres'].str.contains(selected_genre, case=False)) &
+    (df['episodes'] <= max_episode_length) &
+    (df['viewer_score'] >= min_score)
+]
 
 # Display the filtered results
 if not filtered_df.empty:
-    st.write(filtered_df[['title','network']])
+    display_df = filtered_df[['title','episodes','viewer_score','network']]
+    display_df = display_df.rename(columns={'title': 'Show Title', 'episodes': '# of Episodes',
+                                            'viewer_score':'Score', 'network':'Network'})
+
+    st.write(display_df[['Show Title','# of Episodes','Score','Network']])
 else:
     st.write('No titles found matching the selected criteria.')
 
