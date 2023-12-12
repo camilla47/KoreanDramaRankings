@@ -60,10 +60,10 @@ st.write(f"Top Shows in {selected_year}")
 st.dataframe(top_names)
 
 
-##### average score diff streaming ###########################################
+##### AVERAGE SCORE ACROSS GENRES ###########################################
 
 # Create Streamlit app
-st.title('How Do Scores Compare Between Genres?')
+st.header('How Do Scores Compare Between Genres?')
 genre_columns = df.columns[9:40]
 
 # Select two genres using Streamlit sidebar
@@ -85,7 +85,7 @@ if len(selected_genres) == 2 and not selected_genres_data.empty:
         sns.histplot(scores, bins=20, color='forestgreen', edgecolor='black', ax=axs[i],
                      stat='probability') #do proportion instead of frequency
         axs[i].set_xlabel('Viewer Score')
-        axs[i].set_ylabel('Frequency')
+        axs[i].set_ylabel('Proportion')
         axs[i].set_title(f'{genre} Dramas')
         axs[i].set_xlim(min_score-0.05, max_score+0.05)
     st.pyplot(fig)
@@ -94,3 +94,48 @@ elif len(selected_genres) != 2:
     st.warning("Please select exactly two genres.")
 else:
     st.warning("No data available for the selected genres.")
+
+##### AVERAGE SCORE ACROSS NETWORK ###########################################
+
+# Create Streamlit app
+st.header('How Do Scores Vary Between Streaming Services?')
+# Select column names that have a sum of at least 15
+network_columns = df.iloc[:, 40:]
+column_sums = network_columns.sum()
+network_columns = column_sums[column_sums >= 15].index.tolist()
+
+# Select two genres using Streamlit sidebar
+selected_networks = st.multiselect('Select Two Streaming Options:', sorted(network_columns))
+# Filtering data for selected network
+selected_networks_data = df[df[selected_networks].any(axis=1)]
+
+# Plotting histograms side by side
+if len(selected_networks) == 2 and not selected_networks_data.empty:
+    st.subheader(f'Score Distribution for {selected_networks[0]} and {selected_networks[1]} Dramas')
+
+    fig, axs = plt.subplots(1, 2, figsize=(12, 6), sharey=True) # set up figure
+
+    min_score = selected_networks_data['viewer_score'].min() #get min
+    max_score = selected_networks_data['viewer_score'].max() # get the max score for the x-axis limits
+
+    for i, network in enumerate(selected_networks):
+        scores = selected_networks_data[selected_networks_data[network] == 1]['viewer_score']
+        sns.histplot(scores, bins=20, color='purple', edgecolor='black', ax=axs[i],
+                     stat='probability') #do proportion instead of frequency
+        axs[i].set_xlabel('Viewer Score')
+        axs[i].set_ylabel('Proportion')
+        axs[i].set_title(f'{network} Dramas')
+        axs[i].set_xlim(min_score-0.05, max_score+0.05)
+    st.pyplot(fig)
+
+elif len(selected_genres) != 2:
+    st.warning("Please select exactly two networks.")
+else:
+    st.warning("No data available for the selected networks.")
+
+####### WATCHERS OVER YEARS ###################################
+# total watchers, average watchers per year
+
+##### COORELATION BETWEEN EPISODES AND VIEWER RATING?? #######################
+# scatterplot of show length and viewer rating
+
