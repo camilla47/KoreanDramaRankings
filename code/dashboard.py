@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.title('All the Drama')
 df = pd.read_csv('code/mdl_final.csv')
-st.markdown('The data for this dashboard comes from My Drama List, a community-driven platform with information regarding all things dramas. To see how I scraped the data, check out my blog post here: [Crash Landing on Data [You]](%s)' % "https://camilla47.github.io/2023/12/09/data-collect.html")
+st.markdown('The data for this dashboard comes from My Drama List, a community-driven platform with information regarding all things dramas. To see how I scraped the data, check out my blog post here: [Crash Landing on Data](%s)' % "https://camilla47.github.io/2023/12/09/data-collect.html")
 
 ######### PICK YOUR SHOW #######################################################
 st.header('What Drama Should I Watch?')
