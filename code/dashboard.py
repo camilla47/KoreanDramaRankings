@@ -47,7 +47,7 @@ else:
 st.header('Show the Top 5 Dramas in Any Selected Year')
 years = sorted(df['year'].unique())
 # Fetch unique years and sort them in ascending order
-selected_year = st.selectbox('Select a year', sorted(df['year'].unique(), reverse=True))
+selected_year = st.selectbox('Select a year:', sorted(df['year'].unique(), reverse=True))
 year_df = df[df['year'] == selected_year]
 
 # Sorting and selecting top 5 names for the selected year
@@ -120,7 +120,7 @@ if len(selected_networks) == 2 and not selected_networks_data.empty:
 
     for i, network in enumerate(selected_networks):
         scores = selected_networks_data[selected_networks_data[network] == 1]['viewer_score']
-        sns.histplot(scores, bins=20, color='purple', edgecolor='black', ax=axs[i],
+        sns.histplot(scores, bins=20, color='mediumorchid', edgecolor='black', ax=axs[i],
                      stat='probability') #do proportion instead of frequency
         axs[i].set_xlabel('Viewer Score')
         axs[i].set_ylabel('Proportion')
@@ -134,7 +134,40 @@ else:
     st.warning("No data available for the selected networks.")
 
 ####### WATCHERS OVER YEARS ###################################
-# total watchers, average watchers per year
+# Streamlit App
+st.header('Drama Views Through the Years')
+# Plotting the average watchers per year
+avg_watchers = df.groupby('year')['watchers'].mean().reset_index()
+fig, ax = plt.subplots()
+ax.bar(avg_watchers['year'], avg_watchers['watchers'])
+ax.set_xlabel('Year')
+ax.set_ylabel('Average # of Viewers')
+ax.set_title('Average Number Viewers per Drama Each Year')
+st.pyplot(fig)
+
+####### COUNTRY DRAMA COUNT ###################################
+
+st.header('Which Country Produces the Best Dramas?')
+st.text('The error bar represents the range from min to max score')
+# Plotting the average watchers per year
+avg_score_country = df.groupby('country')['viewer_score'].mean().reset_index()
+# Calculate min/max score per country
+min_score_country = df.groupby('country')['viewer_score'].min().reset_index()
+max_score_country = df.groupby('country')['viewer_score'].max().reset_index()
+
+fig, ax = plt.subplots()
+ax.bar(avg_score_country['country'], avg_score_country['viewer_score'], color='goldenrod')
+ax.errorbar(avg_score_country['country'], avg_score_country['viewer_score'], 
+             yerr=[avg_score_country['viewer_score'] - min_score_country['viewer_score'], 
+                   max_score_country['viewer_score'] - avg_score_country['viewer_score']], 
+             fmt='o', color='black', label='Min/Max Range', alpha=0.5)
+
+ax.set_xlabel('Country')
+ax.set_ylabel('Average Score')
+ax.set_ylim(8.0, 9.75)
+
+ax.set_title('Average Score per Country')
+st.pyplot(fig)
 
 ##### COORELATION BETWEEN EPISODES AND VIEWER RATING?? #######################
 # scatterplot of show length and viewer rating
