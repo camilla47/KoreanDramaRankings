@@ -1,3 +1,5 @@
 Document the dashboard creation process, including any challenges faced and solutions
 implemented, and how you used the peer feedback to enhance user experience and data
 presentation.
+
+I started with what I had for lab 10, then adjusted. used streamlit documentation. kept it simple but interesting

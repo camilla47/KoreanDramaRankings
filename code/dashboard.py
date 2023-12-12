@@ -5,6 +5,7 @@ import seaborn as sns
 
 st.title('All the Drama')
 df = pd.read_csv('code/mdl_final.csv')
+st.markdown('The data for this dashboard comes from My Drama List, a community-driven platform with information regarding all things dramas. To see how I scraped the data, check out my blog post here: [Crash Landing on Data [You]](%s)' % "https://camilla47.github.io/2023/12/09/data-collect.html")
 
 ######### PICK YOUR SHOW #######################################################
 st.header('What Drama Should I Watch?')
@@ -25,7 +26,7 @@ min_episode_length = st.slider('Select minimum number of episodes you want in th
 min_score = st.slider('Select the minimum rating (out of 10) you want:', min_value=0.0, max_value=10.0, value=8.0)
 
 # Filtering the dataframe based on user inputs
-st.text("These are the top 10 shows that match your input:")
+st.markdown("These are the top 10 shows that match your input:")
 filtered_df = df[
     (df['genres'].str.contains(selected_genre, case=False)) &
     (df['episodes'] >= min_episode_length) &
@@ -172,3 +173,8 @@ st.pyplot(fig)
 ##### COORELATION BETWEEN EPISODES AND VIEWER RATING?? #######################
 # scatterplot of show length and viewer rating
 
+
+
+#######################
+st.markdown("""---""")
+st.markdown('I hope you enjoyed interacting with this dataset. Now you know more about some of the top Asian Dramas! If you want to explore the code behind this streamlit dashboard, you can check out my git repository [here](%s).' % "https://github.com/camilla47/termProject/blob/main/code/dashboard.py")
