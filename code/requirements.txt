@@ -2,3 +2,6 @@ pandas as pd
 numpy as np
 streamlit as st
 plotly.express as px
+seaborn as sns
+matplotlib.pyplot as plt
+streamlit as st
