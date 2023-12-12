@@ -1,5 +1,4 @@
 pandas
 numpy
 plotly.express
-seaborn
-matplotlib.pyplot
+matplotlib
