@@ -59,82 +59,37 @@ top_names = top_names.rename(columns={'title': 'Show Title', 'viewer_score': 'Sc
 st.write(f"Top Shows in {selected_year}")
 st.dataframe(top_names)
 
-#------------------------------------------------------------------
-
+##### AVERAGE SCORE ACROSS GENRES ###########################################
 st.header('How Do Scores Compare Between Genres?')
 genre_columns = df.columns[9:40]
 
 # Select two genres using Streamlit sidebar
-selected_genres = st.multiselect('Select Two Genres:', sorted(genre_columns))
+selected_genres2 = st.multiselect('Select Two Genres:', sorted(genre_columns))
 # Filtering data for selected genres
-selected_genres_data = df[df[selected_genres].any(axis=1)]
+selected_genres_data = df[df[selected_genres2].any(axis=1)]
 
 # Plotting histograms side by side
-if len(selected_genres) == 2 and not selected_genres_data.empty:
-    st.subheader(f'Score Distribution for {selected_genres[0]} and {selected_genres[1]} Dramas')
-
+if len(selected_genres2) == 2 and not selected_genres_data.empty:
+    st.subheader(f'Score Distribution for {selected_genres2[0]} and {selected_genres2[1]} Dramas')
     fig, axs = plt.subplots(1, 2, figsize=(12, 6), sharey=True) # set up figure
-    # from gpt: fig, axs = plt.subplots(nrows=len(selected_genres), ncols=1, figsize=(8, 6*len(selected_genres)))
 
     min_score = selected_genres_data['viewer_score'].min() #get min
     max_score = selected_genres_data['viewer_score'].max() # get the max score for the x-axis limits
 
-    for i, genre in enumerate(selected_genres):
+    for i, genre in enumerate(selected_genres2):
         scores = selected_genres_data[selected_genres_data[genre] == 1]['viewer_score']
         axs[i].hist(scores, bins=20, color='forestgreen', edgecolor='black', alpha=0.7, density=True)
-        
-        axs[i].set_xlabel('Viewer Score')
-        axs[i].set_ylabel('Proportion')
-        axs[i].set_title(f'{genre} Dramas')
-        
-        min_score = scores.min()
-        max_score = scores.max()
-        axs[i].set_xlim(min_score-0.05, max_score+0.05)
-
-    plt.tight_layout()
-    plt.show()
-
-elif len(selected_genres) != 2:
-    st.warning("Please select exactly two genres.")
-else:
-    st.warning("No data available for the selected genres.")
-# Assuming 'selected_genres_data' is your dataset and 'selected_genres_data' is the list of genres
-
-
-##### AVERAGE SCORE ACROSS GENRES ###########################################
-
-# Create Streamlit app
-st.header('How Do Scores Compare Between Genres?')
-genre_columns = df.columns[9:40]
-
-# Select two genres using Streamlit sidebar
-selected_genres = st.multiselect('Select Two Genres:', sorted(genre_columns))
-# Filtering data for selected genres
-selected_genres_data = df[df[selected_genres].any(axis=1)]
-
-# Plotting histograms side by side
-if len(selected_genres) == 2 and not selected_genres_data.empty:
-    st.subheader(f'Score Distribution for {selected_genres[0]} and {selected_genres[1]} Dramas')
-
-    fig, axs = plt.subplots(1, 2, figsize=(12, 6), sharey=True) # set up figure
-
-    min_score = selected_genres_data['viewer_score'].min() #get min
-    max_score = selected_genres_data['viewer_score'].max() # get the max score for the x-axis limits
-
-    for i, genre in enumerate(selected_genres):
-        scores = selected_genres_data[selected_genres_data[genre] == 1]['viewer_score']
-        sns.histplot(scores, bins=20, color='forestgreen', edgecolor='black', ax=axs[i],
-                     stat='probability') #do proportion instead of frequency
         axs[i].set_xlabel('Viewer Score')
         axs[i].set_ylabel('Proportion')
         axs[i].set_title(f'{genre} Dramas')
         axs[i].set_xlim(min_score-0.05, max_score+0.05)
     st.pyplot(fig)
 
-elif len(selected_genres) != 2:
+elif len(selected_genres2) != 2:
     st.warning("Please select exactly two genres.")
 else:
     st.warning("No data available for the selected genres.")
+
 
 ##### AVERAGE SCORE ACROSS NETWORK ###########################################
 
@@ -153,7 +108,6 @@ selected_networks_data = df[df[selected_networks].any(axis=1)]
 # Plotting histograms side by side
 if len(selected_networks) == 2 and not selected_networks_data.empty:
     st.subheader(f'Score Distribution for {selected_networks[0]} and {selected_networks[1]} Dramas')
-
     fig, axs = plt.subplots(1, 2, figsize=(12, 6), sharey=True) # set up figure
 
     min_score = selected_networks_data['viewer_score'].min() #get min
@@ -161,21 +115,21 @@ if len(selected_networks) == 2 and not selected_networks_data.empty:
 
     for i, network in enumerate(selected_networks):
         scores = selected_networks_data[selected_networks_data[network] == 1]['viewer_score']
-        sns.histplot(scores, bins=20, color='mediumorchid', edgecolor='black', ax=axs[i],
-                     stat='probability') #do proportion instead of frequency
+        axs[i].hist(scores, bins=20, color='mediumorchid', edgecolor='black', alpha=0.7, density=True)
+
         axs[i].set_xlabel('Viewer Score')
         axs[i].set_ylabel('Proportion')
         axs[i].set_title(f'{network} Dramas')
         axs[i].set_xlim(min_score-0.05, max_score+0.05)
     st.pyplot(fig)
 
-elif len(selected_genres) != 2:
+elif len(selected_genres2) != 2:
     st.warning("Please select exactly two networks.")
 else:
     st.warning("No data available for the selected networks.")
 
+
 ####### WATCHERS OVER YEARS ###################################
-# Streamlit App
 st.header('Drama Views Through the Years')
 # Plotting the average watchers per year
 avg_watchers = df.groupby('year')['watchers'].mean().reset_index()
