@@ -20,12 +20,14 @@ From Joe Bradley:
 "I think the K-drama could be really cool. Is there a way that you can coincide the data with popularity?
 Like see how popular it has become? Maybe draw some parallels to the popularity to K-pop as well."
 
-From Garrett Springer
+From Garrett Springer:
 He said the NASA api key was difficult to use, so it might be easier to start elsewhere (unless I really wanted to do it)
 
 
 ### Choosing a Final Topic
- I ultimately decided to go with the K-drama project. As a K-drama fan, I was excited to create 
+ I ultimately decided to go with the K-drama project. I was also talking with a classmates
+ in one of my other classes, where we're analyzing one small part of a K-drama set. She
+ thought it would be fun to see a more in-depth analysis. I was excited to create
  visualizations for the data the MDL website has. These are some of the questions I want to look into:
  - What is the relationship between show length (number of episodes) and viewer rating?
  - Which streaming service provides shows with the highest ratings?

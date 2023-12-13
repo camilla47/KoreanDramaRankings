@@ -3,7 +3,7 @@
  SHA number of the commit for the first blog post draft: 855e80f
  link: https://camilla47.github.io/2023/12/09/data-collect.html
 
- I got feedback from Garrett Springer, Aly Milne, and j for feedback. This is what they said:
+ I got feedback from Garrett Springer, Aly Milne, and Joe Bradley for feedback. This is what they said:
 
 -Typo in the first line Koran -> Korean
 - I liked that you included the code snippets
@@ -14,6 +14,10 @@
 -Was there any sort of rate limit that you implemented while scraping the data? Like a lag between pulls?
 -I also ran into issues with the stupid cookie button while I was scraping mine so I feel you on trying to click the right thing at the right time
 -You did a good job! I can’t wait to see what you do with the data
+
+- Koran - Korean
+- the ethical considerations header is not bolded
+overall very nice, straightforward, and professional
 
 
  Afterwards, I made these changes:
