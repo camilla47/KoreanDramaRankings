@@ -20,3 +20,13 @@ This is the final project for my BYU Stat 386 course. It has 3 parts: collecting
 
 ## Feedback Folder
 * various text files to document the feedback process for my class assignment
+
+## Related Blog Posts
+To see the blog post on data collection and cleaning, check out [Crash Landing on Data](https://camilla47.github.io/2023/12/09/data-collect.html)
+
+To see the blog post on my exploratory data analysis, check out [Extraordinary Investigator Ms. Milla](https://camilla47.github.io/2023/12/09/eda.html)
+
+To explore the dashboard I created, check out [All the Drama](https://explore-mdl.streamlit.app/)
+
+
+
