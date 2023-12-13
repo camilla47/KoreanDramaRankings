@@ -21,3 +21,7 @@ overall very nice, straightforward, and professional
 
 
  Afterwards, I made these changes:
+ - fixed typos
+ - made the ethical considerations header larger
+ - I gave an example of splitting up the country, year, and episode string into 3 separate variables
+ - I added an explanation for how I converted network and genre to 0s and 1s
