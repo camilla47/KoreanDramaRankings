@@ -14,7 +14,7 @@ so those were straightforward. The goal for this dashboard was to keep it simple
 SHA link when asked for feedback: 0ada9f6
 Link: explore-mdl.streamlit.app
 
-I got feedback from A, J, and Morgan Kurth (outside of class, expert in the field)
+I got feedback from Aaron Brown, J, and Morgan Kurth (outside of class, expert in the field)
 
 - I like it a lot! I think it might be more helpful to have the max # of episodes you want rather
   than the minimum, but I really like it all! That would only be for if you had to improve one thing.
@@ -22,6 +22,8 @@ I got feedback from A, J, and Morgan Kurth (outside of class, expert in the fiel
 - Oooo I just took a look and I love this. Im going to watch my recommended dramas over Christmas break.
   Also, interesting how Taiwanese dramas are rated the highest. I’ve never watched a Taiwanese show, but
   I for sure should
+
+- Your dashboard is great Camilla! I think the visuals are very informative, and the organization with displaying tables and then visuals is very clean. Also, I like the interactive tools you incorporated at the beginning of your dashboard—they're very entertaining and grab the user's attention in an effective way. My only suggestion would be to include a section at the beginning or end of your dashboard with a list of relevant links (sources, github, blog posts). Having links at opposite ends of the dashboard feels a little scattered. Awesome job overall though!
 
 
 
