@@ -23,10 +23,18 @@ I got feedback from Aaron Brown, J, and Morgan Kurth (outside of class, expert i
   Also, interesting how Taiwanese dramas are rated the highest. I’ve never watched a Taiwanese show, but
   I for sure should
 
-- Your dashboard is great Camilla! I think the visuals are very informative, and the organization with displaying tables and then visuals is very clean. Also, I like the interactive tools you incorporated at the beginning of your dashboard—they're very entertaining and grab the user's attention in an effective way. My only suggestion would be to include a section at the beginning or end of your dashboard with a list of relevant links (sources, github, blog posts). Having links at opposite ends of the dashboard feels a little scattered. Awesome job overall though!
+- (aaron) Your dashboard is great Camilla! I think the visuals are very informative, and the organization with displaying tables and then visuals is very clean. Also, I like the interactive tools you incorporated at the beginning of your dashboard—they're very entertaining and grab the user's attention in an effective way. My only suggestion would be to include a section at the beginning or end of your dashboard with a list of relevant links (sources, github, blog posts). Having links at opposite ends of the dashboard feels a little scattered. Awesome job overall though!
 
+- (Garrett): looks great! Awesome idea. For the histograms maybe make the bars thicker so they touch and there are no spaces. Maybe also could add a distribution line above the top too. Maybe you could also put a "sort by" button on the top when looking for different shows
 
+- Jo: I think this looks amazing! The only thing I can think of is trying to have a more unified color palette for the graphs? I feel like there are a lot of colors and I am unsure if you are trying to say something with those colors or not.
 
+- Lucy: 
+  - Cool double graph comparison, provides viewer with a easy to understand comparison 
+  - Before the streaming services, maybe add a note about where these platforms are most popular. some of
+them I have never heard of before 
+  - the last graph says country but I think you should change it to language or use the name of the country
+instead of the language they speak 
 
 #### MAKING REVISIONS #####################################
 Afterwards, I made these changes:

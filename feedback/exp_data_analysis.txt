@@ -4,16 +4,35 @@
  link: https://camilla47.github.io/2023/12/09/eda.html
 
 #### GETTING FEEDBACK #####################################
-I got feedback from Aly Milne, Thomas, and Justin Pferdnre
+I got feedback from Aly Milne, Thomas, Justin Pferdnre, and Lucy Storts
 
+(Aly)
 -I don’t know why, but I expected the scores across genres to be highest first. I don’t think you need to change anything here, just my brain being broken
 -I would love to see the average rating across the genre for those same graphs (ie. 8.4 for business, 8.6 for historical) (you could apply this to all similar graphs)
 -I’m a little confused by the Watchers Per Show Through the Years. Could you add more context?
 -you could standardize the axes for all of the graphs in that chunk. That way people could tell easier what the spread is for different genres
 
+(Thomas)
 - order the genre popularity bar chart so the columns are descending
 - could potentially make a stacked histogram for the genre vs. score
 
+(Justin)
 - I like how you start off immediately with all the questions so it gives the reader a good overview
-  before diving in. The blog has great readability and flow and is very clear which I thought was great. The only thing I noticed was that you could add a final summary of the data with a super basic overview of the results you saw and if they were the same or different from what you expected. Looks really good tho 
+  before diving in.
+- The blog has great readability and flow and is very clear which I thought was great
+- The only thing I noticed was that you could add a final summary of the data with a super basic overview of the results you saw
+and if they were the same or different from what you expected. Looks really good tho 
+
+(lucy)
+- I really appreciate that you included a link to your blog because that way it is easy to find where/how you collected your data
+- I like the drop down menus and the way the user gets to interact with your data. 
+- Is there any way to ask for all genres to compare across all shows for the drop down menu?
+- I was wondering if your data for each genre was stored in different .csv files… hopefully that makes
+sense 😊 
+
+
 #### MAKING REVISIONS #####################################
+- I will add more of an explanation on what the watchers category is
+- I reordered the bar chart graphs
+- in the conclusion add a final summary
+- I didn't want to add a drop down to show scores for all genres because there are a lot of genres and that is a lot to display

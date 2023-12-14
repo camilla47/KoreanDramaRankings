@@ -157,7 +157,7 @@ ax.errorbar(avg_score_country['country'], avg_score_country['viewer_score'],
                    max_score_country['viewer_score'] - avg_score_country['viewer_score']], 
              fmt='o', color='black', label='Min/Max Range', alpha=0.5)
 
-ax.set_xlabel('Country')
+ax.set_xlabel('Origin')
 ax.set_ylabel('Average Score')
 ax.set_ylim(8.0, 9.75)
 
