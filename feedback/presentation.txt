@@ -14,8 +14,11 @@ so those were straightforward. The goal for this dashboard was to keep it simple
 SHA link when asked for feedback: 0ada9f6
 Link: explore-mdl.streamlit.app
 
-I got feedback from Aly Milne, J, J
+I got feedback from A, J, and Morgan Kurth (outside of class, expert in the field)
 
+- I like it a lot! I think it might be more helpful to have the max # of episodes you want rather
+  than the minimum, but I really like it all! That would only be for if you had to improve one thing.
+  I love your Crash Landing reference page haha
 
 
 
