@@ -1,7 +1,24 @@
-Document the dashboard creation process, including any challenges faced and solutions
-implemented, and how you used the peer feedback to enhance user experience and data
-presentation.
+#### DASHBOARD CREATION #############################
 
-I started with what I had for lab 10, then adjusted. used streamlit documentation. kept it simple but interesting
+I started with what I had for lab 10, then adjusted from there. The first few graphics I made
+with drop downs went smoothly. I looked up streamlit documentation to help with the formatting. The
+only tricky part with this section was figuring out if sliders or drop downs were better, how to 
+alphebetize the drop downs, and keeping the output to a manageable size.
 
+To output the bar graphs, I originally coded them with seaborn. However, I discovered that searborn is
+really finicky when you try to deploy your website. I had to change those parts of the code to just use
+matplotlib. T'was a temporary set back, but I fixed it soon enough. The last two images aren't interactive
+so those were straightforward. The goal for this dashboard was to keep it simple and efficient.
+
+#### GETTING FEEDBACK #####################################
 SHA link when asked for feedback: 0ada9f6
+Link: explore-mdl.streamlit.app
+
+I got feedback from Aly Milne, J, J
+
+
+
+
+
+#### MAKING REVISIONS #####################################
+Afterwards, I made these changes:

@@ -1,6 +1,6 @@
- ### CHOOSING A TOPIC #####################################
+#### CHOOSING A TOPIC #####################################
 
-### Initial brainstorming
+## Initial brainstorming
  There were a few topics I was interested in for this project. It was a little difficult to find something
  I was both interested in and that would have enough data to fit the requirements. Some of the areas I was
  interested in were agriculture, owls, music, and K-dramas. My family has an ongoing research project with
@@ -9,7 +9,7 @@
  keys to potentially do something with asteroids and exoplanets. The last option I considered was analyzing
  the My Drama Lists's (MDL) website for data on K-dramas. 
 
-### Getting Feedback
+## Getting Feedback
  I asked some of my classmates for their feedback on topic selection, and this is what they said:
  These were my ideas
  - Scrape information from the USDA on agriculture in Washington State 
@@ -17,14 +17,14 @@
  - Scrape My Drama List website for data on K-dramas
 
 From Joe Bradley:
-"I think the K-drama could be really cool. Is there a way that you can coincide the data with popularity?
-Like see how popular it has become? Maybe draw some parallels to the popularity to K-pop as well."
+ "I think the K-drama could be really cool. Is there a way that you can coincide the data with popularity?
+ Like see how popular it has become? Maybe draw some parallels to the popularity to K-pop as well."
 
 From Garrett Springer:
-He said the NASA api key was difficult to use, so it might be easier to start elsewhere (unless I really wanted to do it)
+ He said the NASA api key was difficult to use, so it might be easier to start elsewhere (unless I really wanted to do it)
 
 
-### Choosing a Final Topic
+## Choosing a Final Topic
  I ultimately decided to go with the K-drama project. I was also talking with a classmates
  in one of my other classes, where we're analyzing one small part of a K-drama set. She
  thought it would be fun to see a more in-depth analysis. I was excited to create

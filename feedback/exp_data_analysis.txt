@@ -1,14 +1,15 @@
-Obtain feedback from at least three individuals (preferably classmates) on the quality of your blog post.
-Specifically ask for feedback on improving readability, clarity, and informativeness.
- Revise your blog post based on the feedback received.
- Document the feedback process, emphasizing how your blog post was enhanced through feedback.
- Also report the SHA number of the commit with the first draft you shared.
+ #### FEEDBACK FOR EDA ##########################
 
- SHA: 5af4ce3
+ SHA for commit of first draft: 5af4ce3
+ link: https://camilla47.github.io/2023/12/09/eda.html
 
- I got feedback from Aly Milne, J, J
+#### GETTING FEEDBACK #####################################
+I got feedback from Aly Milne, J, J
 
--I don’t know why, but I expected the scores across genres to be highest first. I don’t think you need to change anything here, just my brain being broken
--I would love to see the average rating across the genre for those same graphs (ie. 8.4 for business, 8.6 for historical) (you could apply this to all similar graphs)
--I’m a little confused by the Watchers Per Show Through the Years. Could you add more context?
--you could standardize the axes for all of the graphs in that chunk. That way people could tell easier what the spread is for different genres
+    -I don’t know why, but I expected the scores across genres to be highest first. I don’t think you need to change anything here, just my brain being broken
+    -I would love to see the average rating across the genre for those same graphs (ie. 8.4 for business, 8.6 for historical) (you could apply this to all similar graphs)
+    -I’m a little confused by the Watchers Per Show Through the Years. Could you add more context?
+    -you could standardize the axes for all of the graphs in that chunk. That way people could tell easier what the spread is for different genres
+
+
+#### MAKING REVISIONS #####################################
