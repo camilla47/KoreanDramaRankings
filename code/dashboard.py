@@ -17,7 +17,7 @@ for genres in df['genres']:
 selected_genre = st.selectbox('What genre are you interested in?', sorted(list(unique_genres)))
 
 # select max episode length
-min_episode_length = st.slider('Select minimum number of episodes you want in the series:',
+max_episode_length = st.slider('Select maximum number of episodes you want in the series:',
                                        min_value=0, max_value=df['episodes'].max(),
                                        value=16)     #df['episodes'].min())
 
@@ -28,7 +28,7 @@ min_score = st.slider('Select the minimum rating (out of 10) you want:', min_val
 st.markdown("These are the top 10 shows that match your input:")
 filtered_df = df[
     (df['genres'].str.contains(selected_genre, case=False)) &
-    (df['episodes'] >= min_episode_length) &
+    (df['episodes'] <= max_episode_length) &
     (df['viewer_score'] >= min_score)
 ].head(10)
 
