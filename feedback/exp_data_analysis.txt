@@ -28,11 +28,12 @@ and if they were the same or different from what you expected. Looks really good
 - I like the drop down menus and the way the user gets to interact with your data. 
 - Is there any way to ask for all genres to compare across all shows for the drop down menu?
 - I was wondering if your data for each genre was stored in different .csv files… hopefully that makes
-sense 😊 
+sense
 
 
 #### MAKING REVISIONS #####################################
-- I will add more of an explanation on what the watchers category is
+- I add more of an explanation on what the watchers category is
 - I reordered the bar chart graphs
+- I added an explanation about where the streaming services are used (why most of them are unfamiliar)
 - in the conclusion add a final summary
 - I didn't want to add a drop down to show scores for all genres because there are a lot of genres and that is a lot to display

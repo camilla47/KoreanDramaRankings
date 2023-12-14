@@ -37,4 +37,4 @@ them I have never heard of before
 instead of the language they speak 
 
 #### MAKING REVISIONS #####################################
-Afterwards, I made these changes:
+- I changed the episode selection to be the maximum instead of minimum
