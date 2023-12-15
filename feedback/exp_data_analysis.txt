@@ -4,7 +4,7 @@
  link: https://camilla47.github.io/2023/12/09/eda.html
 
 #### GETTING FEEDBACK #####################################
-I got feedback from Aly Milne, Thomas, Justin Pferdnre, and Lucy Storts
+I got feedback from Aly, Thomas, Justin, and Lucy
 
 (Aly)
 -I don’t know why, but I expected the scores across genres to be highest first. I don’t think you need to change anything here, just my brain being broken
@@ -23,7 +23,7 @@ I got feedback from Aly Milne, Thomas, Justin Pferdnre, and Lucy Storts
 - The only thing I noticed was that you could add a final summary of the data with a super basic overview of the results you saw
 and if they were the same or different from what you expected. Looks really good tho 
 
-(lucy)
+(Lucy)
 - I really appreciate that you included a link to your blog because that way it is easy to find where/how you collected your data
 - I like the drop down menus and the way the user gets to interact with your data. 
 - Is there any way to ask for all genres to compare across all shows for the drop down menu?

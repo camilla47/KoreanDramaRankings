@@ -6,23 +6,27 @@ link: https://camilla47.github.io/2023/12/09/data-collect.html
 
 #### GETTING FEEDBACK #####################################
 
-I got feedback from Garrett Springer, Aly Milne, Lucy Storts, and Joe Bradley for feedback. This is what they said:
+I got feedback from Garrett, Aly, Lucy, and Joe for feedback. This is what they said:
 
+(Garrett)
 -Typo in the first line Koran -> Korean
 - I liked that you included the code snippets
 - Good explanation of selenium
 - Maybe some more info on your cleaning process
 
+(Aly)
 - I like your questions for the EDA. I think those will lead to good insights.
 -Was there any sort of rate limit that you implemented while scraping the data? Like a lag between pulls?
 -I also ran into issues with the stupid cookie button while I was scraping mine so I feel you on trying to click the right thing at the right time
 -You did a good job! I can’t wait to see what you do with the data
 
+(Lucy)
 - very succinct
 - I like that you explained why and when to use selenium
 - this is a great topic and I really like how you added your questions in the intro.
    It made me want to read more and see your process.
 
+(Joe)
 - Koran > Korean
 - the ethical considerations header is not bolded
 overall very nice, straightforward, and professional
