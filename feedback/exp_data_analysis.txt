@@ -32,8 +32,9 @@ sense
 
 
 #### MAKING REVISIONS #####################################
-- I add more of an explanation on what the watchers category is
+- I added more of an explanation on what the watchers category is
+- I made sure the x-axis of my combined histograms had the same limits
 - I reordered the bar chart graphs
 - I added an explanation about where the streaming services are used (why most of them are unfamiliar)
-- in the conclusion add a final summary
 - I didn't want to add a drop down to show scores for all genres because there are a lot of genres and that is a lot to display
+- In the conclusion I added a few sentences about my favorite insights
