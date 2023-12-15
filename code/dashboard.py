@@ -3,8 +3,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.title('All the Drama')
-df = pd.read_csv('code/mdl_final.csv')
+st.markdown('By Camilla McKinnon')
+st.markdown("""---""")
+
 st.markdown('The data for this dashboard comes from My Drama List, a community-driven platform with information regarding all things Asian-dramas. To see how I scraped the data, check out my blog post here: [Crash Landing on Data](%s)' % "https://camilla47.github.io/2023/12/09/data-collect.html")
+
+df = pd.read_csv('code/mdl_final.csv')
 
 ######### PICK YOUR SHOW #######################################################
 st.header('What Drama Should I Watch?')
