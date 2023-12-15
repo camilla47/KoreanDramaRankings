@@ -1,5 +1,5 @@
 # Exploring the My Drama List Website
-This is the final project for my BYU Stat 386 course. It has 3 parts: collecting the data, exploratory data analysis, and building a dashboard. 
+This is the final project for my BYU Stat 386 course. It has 3 parts: collecting the data, exploratory data analysis, and building a dashboard. The links to the blog posts and dashboard are at the bottom.
 
 ## Collecting the Data
 * **bsoup_scrape.py** This contains the function that scrapes the mdl website for title,year,episodes,country,viewer_score, and rank 
