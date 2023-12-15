@@ -40,7 +40,7 @@ if not filtered_df.empty:
 
     st.dataframe(display_df, hide_index=True)
 else:
-    st.write('No titles found matching the selected criteria.')
+    st.warning('No titles found matching the selected criteria.')
 
 
 ##### Show top 5 movies in any selected year ###########################################
